@@ -25,7 +25,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
     final position = await getUserLocation();
     final lat = position.latitude;
     final lon = position.longitude;
-    String apiKey = 'YOUR_API_KEY';//'08751c4124e070e3ec102c17f1e54770';// this is just place holder for the api key
+    String apiKey = 'YOUR_API_KEY';// this is just place holder for the api key
     try{
     final result = await http.get(
     Uri.parse('https://api.openweathermap.org/data/2.5/forecast?lat=$lat&lon=$lon&APPID=$apiKey'),
