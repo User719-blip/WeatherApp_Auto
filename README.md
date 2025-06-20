@@ -22,7 +22,7 @@ A simple Flutter weather application that fetches and displays the current weath
 
 1. **Clone the repository:**
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/User719-blip/WeatherApp_Auto.git
    cd weatherapp
    ```
 
@@ -76,4 +76,4 @@ MIT License
 
 ---
 
-**Happy Coding!**
+
